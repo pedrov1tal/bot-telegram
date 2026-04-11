@@ -1,0 +1,23 @@
+{
+  "env": {
+    "targets": {
+      "node": "14"
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "decoratorMetadata": true
+    },
+    "target": "es2020"
+  },
+  "minify": false,
+  "sourceMaps": true
+}
